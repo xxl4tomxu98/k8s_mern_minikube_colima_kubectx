@@ -9,7 +9,7 @@
     `$ mkdir -p ~/.docker/cli-plugins`
     Then symlink docker-compose into the folder:
     `$ ln -sfn $(brew --prefix)/opt/dockrer-compose/bin/docker-compose ~/.docker/cli-plugins/docker-compose`
-    `$ dockerr compose`
+    `$ docker compose`
 
 ### Create virtual machine with Colima:
     `$ colima start` default config would be 2 CPU, 2GiB memory, and 60 GiB storage. To confirm, run:
